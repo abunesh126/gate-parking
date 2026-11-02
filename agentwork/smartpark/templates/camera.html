@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="camera-grid">
+  <div class="panel">
+    <h3>Camera</h3>
+    <select id="camera-select"><option value="">Discovering cameras...</option></select>
+    <button id="camera-refresh">Refresh cameras</button>
+    <p id="camera-status">Not connected</p>
+    <div class="button-row">
+      <button id="mode-entry">Entry</button>
+      <button id="mode-exit">Exit</button>
+      <span id="mode"> Current mode: entry</span>
+    </div>
+    <button id="camera-start">Start camera</button>
+    <button id="camera-stop">Stop camera</button>
+    <p>Automatic recognition is active while the camera is connected.</p>
+    <details>
+      <summary>Diagnostic controls</summary>
+      <button id="camera-capture">Capture image</button>
+      <button id="camera-recognize">Recognize plate</button>
+      <button id="process-recognition" hidden>Process Entry/Exit</button>
+      <label><input id="camera-debug" type="checkbox"> Show detection debug images</label>
+    </details>
+    <p id="camera-message">Select a camera and start the live feed.</p>
+    <img class="feed" src="/api/camera/feed" alt="Live camera feed">
+  </div>
+  <div class="panel">
+    <h3>Recognition result</h3>
+    <p id="recognition-status">No capture yet.</p>
+    <p id="recognition-plate" class="plate-result">—</p>
+    <p id="recognition-confidence"></p>
+    <div id="recognition-characters"></div>
+    <img id="detected-plate" class="result-image" alt="Detected plate" hidden>
+    <img id="segmented-characters" class="result-image" alt="Segmented characters" hidden>
+    <section id="recognition-debug" class="debug-grid" hidden>
+      <h3>Detection debug</h3>
+      <p id="debug-prediction"></p>
+      <div id="debug-images"></div>
+    </section>
+  </div>
+</section>
+{% endblock %}

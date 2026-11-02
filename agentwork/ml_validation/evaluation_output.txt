@@ -1,0 +1,5723 @@
+﻿{
+  "dataset": "C:\\Users\\abune\\OneDrive\\Desktop\\gate parking\\License-Plate-Number-Detection\\data.zip!data/val",
+  "checkpoint": "C:\\Users\\abune\\OneDrive\\Desktop\\gate parking\\License-Plate-Number-Detection\\checkpoints\\my_checkpoint",
+  "class_order": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "documented_preprocessing": {
+    "normalization": "none (documented inference)",
+    "total": 216,
+    "correct": 212,
+    "incorrect": 4,
+    "accuracy": 0.9814814814814815,
+    "elapsed_seconds": 0.2873552999999447,
+    "mean_latency_ms": 1.3303486111108551,
+    "per_class": {
+      "0": {
+        "total": 6,
+        "correct": 5,
+        "accuracy": 0.8333333333333334
+      },
+      "1": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "2": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "3": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "4": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "5": {
+        "total": 6,
+        "correct": 4,
+        "accuracy": 0.6666666666666666
+      },
+      "6": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "7": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "8": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "9": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "A": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "B": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "C": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "D": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "E": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "F": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "G": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "H": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "I": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "J": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "K": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "L": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "M": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "N": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "O": {
+        "total": 6,
+        "correct": 5,
+        "accuracy": 0.8333333333333334
+      },
+      "P": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "Q": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "R": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "S": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "T": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "U": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "V": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "W": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "X": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "Y": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "Z": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6
+      ]
+    ],
+    "predictions": [
+      {
+        "file": "data/val/class_0/class_0_1.jpg",
+        "actual": "0",
+        "predicted": "0",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_0/class_0_12.jpg",
+        "actual": "0",
+        "predicted": "0",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_0/class_0_16.jpg",
+        "actual": "0",
+        "predicted": "0",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_0/class_0_17.jpg",
+        "actual": "0",
+        "predicted": "0",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_0/class_0_28.jpg",
+        "actual": "0",
+        "predicted": "O",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_0/class_0_30.jpg",
+        "actual": "0",
+        "predicted": "0",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_1/class_1_1.jpg",
+        "actual": "1",
+        "predicted": "1",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_1/class_1_12.jpg",
+        "actual": "1",
+        "predicted": "1",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_1/class_1_16.jpg",
+        "actual": "1",
+        "predicted": "1",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_1/class_1_17.jpg",
+        "actual": "1",
+        "predicted": "1",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_1/class_1_28.jpg",
+        "actual": "1",
+        "predicted": "1",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_1/class_1_30.jpg",
+        "actual": "1",
+        "predicted": "1",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_2/class_2_1.jpg",
+        "actual": "2",
+        "predicted": "2",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_2/class_2_12.jpg",
+        "actual": "2",
+        "predicted": "2",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_2/class_2_16.jpg",
+        "actual": "2",
+        "predicted": "2",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_2/class_2_17.jpg",
+        "actual": "2",
+        "predicted": "2",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_2/class_2_28.jpg",
+        "actual": "2",
+        "predicted": "2",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_2/class_2_30.jpg",
+        "actual": "2",
+        "predicted": "2",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_3/class_3_1.jpg",
+        "actual": "3",
+        "predicted": "3",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_3/class_3_12.jpg",
+        "actual": "3",
+        "predicted": "3",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_3/class_3_16.jpg",
+        "actual": "3",
+        "predicted": "3",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_3/class_3_17.jpg",
+        "actual": "3",
+        "predicted": "3",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_3/class_3_28.jpg",
+        "actual": "3",
+        "predicted": "3",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_3/class_3_30.jpg",
+        "actual": "3",
+        "predicted": "3",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_4/class_4_1.jpg",
+        "actual": "4",
+        "predicted": "4",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_4/class_4_12.jpg",
+        "actual": "4",
+        "predicted": "4",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_4/class_4_16.jpg",
+        "actual": "4",
+        "predicted": "4",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_4/class_4_17.jpg",
+        "actual": "4",
+        "predicted": "4",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_4/class_4_28.jpg",
+        "actual": "4",
+        "predicted": "4",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_4/class_4_30.jpg",
+        "actual": "4",
+        "predicted": "4",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_5/class_5_1.jpg",
+        "actual": "5",
+        "predicted": "5",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_5/class_5_12.jpg",
+        "actual": "5",
+        "predicted": "5",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_5/class_5_16.jpg",
+        "actual": "5",
+        "predicted": "S",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_5/class_5_17.jpg",
+        "actual": "5",
+        "predicted": "5",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_5/class_5_28.jpg",
+        "actual": "5",
+        "predicted": "5",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_5/class_5_30.jpg",
+        "actual": "5",
+        "predicted": "S",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_6/class_6_1.jpg",
+        "actual": "6",
+        "predicted": "6",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_6/class_6_12.jpg",
+        "actual": "6",
+        "predicted": "6",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_6/class_6_16.jpg",
+        "actual": "6",
+        "predicted": "6",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_6/class_6_17.jpg",
+        "actual": "6",
+        "predicted": "6",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_6/class_6_28.jpg",
+        "actual": "6",
+        "predicted": "6",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_6/class_6_30.jpg",
+        "actual": "6",
+        "predicted": "6",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_7/class_7_1.jpg",
+        "actual": "7",
+        "predicted": "7",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_7/class_7_12.jpg",
+        "actual": "7",
+        "predicted": "7",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_7/class_7_16.jpg",
+        "actual": "7",
+        "predicted": "7",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_7/class_7_17.jpg",
+        "actual": "7",
+        "predicted": "7",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_7/class_7_28.jpg",
+        "actual": "7",
+        "predicted": "7",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_7/class_7_30.jpg",
+        "actual": "7",
+        "predicted": "7",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_8/class_8_1.jpg",
+        "actual": "8",
+        "predicted": "8",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_8/class_8_12.jpg",
+        "actual": "8",
+        "predicted": "8",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_8/class_8_16.jpg",
+        "actual": "8",
+        "predicted": "8",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_8/class_8_17.jpg",
+        "actual": "8",
+        "predicted": "8",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_8/class_8_28.jpg",
+        "actual": "8",
+        "predicted": "8",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_8/class_8_30.jpg",
+        "actual": "8",
+        "predicted": "8",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_9/class_9_1.jpg",
+        "actual": "9",
+        "predicted": "9",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_9/class_9_12.jpg",
+        "actual": "9",
+        "predicted": "9",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_9/class_9_16.jpg",
+        "actual": "9",
+        "predicted": "9",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_9/class_9_17.jpg",
+        "actual": "9",
+        "predicted": "9",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_9/class_9_28.jpg",
+        "actual": "9",
+        "predicted": "9",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_9/class_9_30.jpg",
+        "actual": "9",
+        "predicted": "9",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_A/class_A_1.jpg",
+        "actual": "A",
+        "predicted": "A",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_A/class_A_12.jpg",
+        "actual": "A",
+        "predicted": "A",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_A/class_A_16.jpg",
+        "actual": "A",
+        "predicted": "A",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_A/class_A_17.jpg",
+        "actual": "A",
+        "predicted": "A",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_A/class_A_28.jpg",
+        "actual": "A",
+        "predicted": "A",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_A/class_A_30.jpg",
+        "actual": "A",
+        "predicted": "A",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_B/class_B_1.jpg",
+        "actual": "B",
+        "predicted": "B",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_B/class_B_12.jpg",
+        "actual": "B",
+        "predicted": "B",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_B/class_B_16.jpg",
+        "actual": "B",
+        "predicted": "B",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_B/class_B_17.jpg",
+        "actual": "B",
+        "predicted": "B",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_B/class_B_28.jpg",
+        "actual": "B",
+        "predicted": "B",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_B/class_B_30.jpg",
+        "actual": "B",
+        "predicted": "B",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_C/class_C_1.jpg",
+        "actual": "C",
+        "predicted": "C",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_C/class_C_12.jpg",
+        "actual": "C",
+        "predicted": "C",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_C/class_C_16.jpg",
+        "actual": "C",
+        "predicted": "C",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_C/class_C_17.jpg",
+        "actual": "C",
+        "predicted": "C",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_C/class_C_28.jpg",
+        "actual": "C",
+        "predicted": "C",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_C/class_C_30.jpg",
+        "actual": "C",
+        "predicted": "C",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_D/class_D_1.jpg",
+        "actual": "D",
+        "predicted": "D",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_D/class_D_12.jpg",
+        "actual": "D",
+        "predicted": "D",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_D/class_D_16.jpg",
+        "actual": "D",
+        "predicted": "D",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_D/class_D_17.jpg",
+        "actual": "D",
+        "predicted": "D",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_D/class_D_28.jpg",
+        "actual": "D",
+        "predicted": "D",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_D/class_D_30.jpg",
+        "actual": "D",
+        "predicted": "D",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_E/class_E_1.jpg",
+        "actual": "E",
+        "predicted": "E",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_E/class_E_12.jpg",
+        "actual": "E",
+        "predicted": "E",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_E/class_E_16.jpg",
+        "actual": "E",
+        "predicted": "E",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_E/class_E_17.jpg",
+        "actual": "E",
+        "predicted": "E",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_E/class_E_28.jpg",
+        "actual": "E",
+        "predicted": "E",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_E/class_E_30.jpg",
+        "actual": "E",
+        "predicted": "E",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_F/class_F_1.jpg",
+        "actual": "F",
+        "predicted": "F",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_F/class_F_12.jpg",
+        "actual": "F",
+        "predicted": "F",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_F/class_F_16.jpg",
+        "actual": "F",
+        "predicted": "F",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_F/class_F_17.jpg",
+        "actual": "F",
+        "predicted": "F",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_F/class_F_28.jpg",
+        "actual": "F",
+        "predicted": "F",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_F/class_F_30.jpg",
+        "actual": "F",
+        "predicted": "F",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_G/class_G_1.jpg",
+        "actual": "G",
+        "predicted": "G",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_G/class_G_12.jpg",
+        "actual": "G",
+        "predicted": "G",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_G/class_G_16.jpg",
+        "actual": "G",
+        "predicted": "G",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_G/class_G_17.jpg",
+        "actual": "G",
+        "predicted": "G",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_G/class_G_28.jpg",
+        "actual": "G",
+        "predicted": "G",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_G/class_G_30.jpg",
+        "actual": "G",
+        "predicted": "G",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_H/class_H_1.jpg",
+        "actual": "H",
+        "predicted": "H",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_H/class_H_12.jpg",
+        "actual": "H",
+        "predicted": "H",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_H/class_H_16.jpg",
+        "actual": "H",
+        "predicted": "H",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_H/class_H_17.jpg",
+        "actual": "H",
+        "predicted": "H",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_H/class_H_28.jpg",
+        "actual": "H",
+        "predicted": "H",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_H/class_H_30.jpg",
+        "actual": "H",
+        "predicted": "H",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_I/class_I_1.jpg",
+        "actual": "I",
+        "predicted": "I",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_I/class_I_12.jpg",
+        "actual": "I",
+        "predicted": "I",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_I/class_I_16.jpg",
+        "actual": "I",
+        "predicted": "I",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_I/class_I_17.jpg",
+        "actual": "I",
+        "predicted": "I",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_I/class_I_28.jpg",
+        "actual": "I",
+        "predicted": "I",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_I/class_I_30.jpg",
+        "actual": "I",
+        "predicted": "I",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_J/class_J_1.jpg",
+        "actual": "J",
+        "predicted": "J",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_J/class_J_12.jpg",
+        "actual": "J",
+        "predicted": "J",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_J/class_J_16.jpg",
+        "actual": "J",
+        "predicted": "J",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_J/class_J_17.jpg",
+        "actual": "J",
+        "predicted": "J",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_J/class_J_28.jpg",
+        "actual": "J",
+        "predicted": "J",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_J/class_J_30.jpg",
+        "actual": "J",
+        "predicted": "J",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_K/class_K_1.jpg",
+        "actual": "K",
+        "predicted": "K",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_K/class_K_12.jpg",
+        "actual": "K",
+        "predicted": "K",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_K/class_K_16.jpg",
+        "actual": "K",
+        "predicted": "K",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_K/class_K_17.jpg",
+        "actual": "K",
+        "predicted": "K",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_K/class_K_28.jpg",
+        "actual": "K",
+        "predicted": "K",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_K/class_K_30.jpg",
+        "actual": "K",
+        "predicted": "K",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_L/class_L_1.jpg",
+        "actual": "L",
+        "predicted": "L",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_L/class_L_12.jpg",
+        "actual": "L",
+        "predicted": "L",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_L/class_L_16.jpg",
+        "actual": "L",
+        "predicted": "L",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_L/class_L_17.jpg",
+        "actual": "L",
+        "predicted": "L",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_L/class_L_28.jpg",
+        "actual": "L",
+        "predicted": "L",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_L/class_L_30.jpg",
+        "actual": "L",
+        "predicted": "L",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_M/class_M_1.jpg",
+        "actual": "M",
+        "predicted": "M",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_M/class_M_12.jpg",
+        "actual": "M",
+        "predicted": "M",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_M/class_M_16.jpg",
+        "actual": "M",
+        "predicted": "M",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_M/class_M_17.jpg",
+        "actual": "M",
+        "predicted": "M",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_M/class_M_28.jpg",
+        "actual": "M",
+        "predicted": "M",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_M/class_M_30.jpg",
+        "actual": "M",
+        "predicted": "M",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_N/class_N_1.jpg",
+        "actual": "N",
+        "predicted": "N",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_N/class_N_12.jpg",
+        "actual": "N",
+        "predicted": "N",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_N/class_N_16.jpg",
+        "actual": "N",
+        "predicted": "N",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_N/class_N_17.jpg",
+        "actual": "N",
+        "predicted": "N",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_N/class_N_28.jpg",
+        "actual": "N",
+        "predicted": "N",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_N/class_N_30.jpg",
+        "actual": "N",
+        "predicted": "N",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_O/class_O_1.jpg",
+        "actual": "O",
+        "predicted": "O",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_O/class_O_12.jpg",
+        "actual": "O",
+        "predicted": "O",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_O/class_O_16.jpg",
+        "actual": "O",
+        "predicted": "0",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_O/class_O_17.jpg",
+        "actual": "O",
+        "predicted": "O",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_O/class_O_28.jpg",
+        "actual": "O",
+        "predicted": "O",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_O/class_O_30.jpg",
+        "actual": "O",
+        "predicted": "O",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_P/class_P_1.jpg",
+        "actual": "P",
+        "predicted": "P",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_P/class_P_12.jpg",
+        "actual": "P",
+        "predicted": "P",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_P/class_P_16.jpg",
+        "actual": "P",
+        "predicted": "P",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_P/class_P_17.jpg",
+        "actual": "P",
+        "predicted": "P",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_P/class_P_28.jpg",
+        "actual": "P",
+        "predicted": "P",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_P/class_P_30.jpg",
+        "actual": "P",
+        "predicted": "P",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Q/class_Q_1.jpg",
+        "actual": "Q",
+        "predicted": "Q",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Q/class_Q_12.jpg",
+        "actual": "Q",
+        "predicted": "Q",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Q/class_Q_16.jpg",
+        "actual": "Q",
+        "predicted": "Q",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Q/class_Q_17.jpg",
+        "actual": "Q",
+        "predicted": "Q",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Q/class_Q_28.jpg",
+        "actual": "Q",
+        "predicted": "Q",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Q/class_Q_30.jpg",
+        "actual": "Q",
+        "predicted": "Q",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_R/class_R_1.jpg",
+        "actual": "R",
+        "predicted": "R",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_R/class_R_12.jpg",
+        "actual": "R",
+        "predicted": "R",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_R/class_R_16.jpg",
+        "actual": "R",
+        "predicted": "R",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_R/class_R_17.jpg",
+        "actual": "R",
+        "predicted": "R",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_R/class_R_28.jpg",
+        "actual": "R",
+        "predicted": "R",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_R/class_R_30.jpg",
+        "actual": "R",
+        "predicted": "R",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_S/class_S_1.jpg",
+        "actual": "S",
+        "predicted": "S",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_S/class_S_12.jpg",
+        "actual": "S",
+        "predicted": "S",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_S/class_S_16.jpg",
+        "actual": "S",
+        "predicted": "S",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_S/class_S_17.jpg",
+        "actual": "S",
+        "predicted": "S",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_S/class_S_28.jpg",
+        "actual": "S",
+        "predicted": "S",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_S/class_S_30.jpg",
+        "actual": "S",
+        "predicted": "S",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_T/class_T_1.jpg",
+        "actual": "T",
+        "predicted": "T",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_T/class_T_12.jpg",
+        "actual": "T",
+        "predicted": "T",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_T/class_T_16.jpg",
+        "actual": "T",
+        "predicted": "T",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_T/class_T_17.jpg",
+        "actual": "T",
+        "predicted": "T",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_T/class_T_28.jpg",
+        "actual": "T",
+        "predicted": "T",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_T/class_T_30.jpg",
+        "actual": "T",
+        "predicted": "T",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_U/class_U_1.jpg",
+        "actual": "U",
+        "predicted": "U",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_U/class_U_12.jpg",
+        "actual": "U",
+        "predicted": "U",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_U/class_U_16.jpg",
+        "actual": "U",
+        "predicted": "U",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_U/class_U_17.jpg",
+        "actual": "U",
+        "predicted": "U",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_U/class_U_28.jpg",
+        "actual": "U",
+        "predicted": "U",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_U/class_U_30.jpg",
+        "actual": "U",
+        "predicted": "U",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_V/class_V_1.jpg",
+        "actual": "V",
+        "predicted": "V",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_V/class_V_12.jpg",
+        "actual": "V",
+        "predicted": "V",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_V/class_V_16.jpg",
+        "actual": "V",
+        "predicted": "V",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_V/class_V_17.jpg",
+        "actual": "V",
+        "predicted": "V",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_V/class_V_28.jpg",
+        "actual": "V",
+        "predicted": "V",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_V/class_V_30.jpg",
+        "actual": "V",
+        "predicted": "V",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_W/class_W_1.jpg",
+        "actual": "W",
+        "predicted": "W",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_W/class_W_12.jpg",
+        "actual": "W",
+        "predicted": "W",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_W/class_W_16.jpg",
+        "actual": "W",
+        "predicted": "W",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_W/class_W_17.jpg",
+        "actual": "W",
+        "predicted": "W",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_W/class_W_28.jpg",
+        "actual": "W",
+        "predicted": "W",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_W/class_W_30.jpg",
+        "actual": "W",
+        "predicted": "W",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_X/class_X_1.jpg",
+        "actual": "X",
+        "predicted": "X",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_X/class_X_12.jpg",
+        "actual": "X",
+        "predicted": "X",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_X/class_X_16.jpg",
+        "actual": "X",
+        "predicted": "X",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_X/class_X_17.jpg",
+        "actual": "X",
+        "predicted": "X",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_X/class_X_28.jpg",
+        "actual": "X",
+        "predicted": "X",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_X/class_X_30.jpg",
+        "actual": "X",
+        "predicted": "X",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Y/class_Y_1.jpg",
+        "actual": "Y",
+        "predicted": "Y",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Y/class_Y_12.jpg",
+        "actual": "Y",
+        "predicted": "Y",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Y/class_Y_16.jpg",
+        "actual": "Y",
+        "predicted": "Y",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Y/class_Y_17.jpg",
+        "actual": "Y",
+        "predicted": "Y",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Y/class_Y_28.jpg",
+        "actual": "Y",
+        "predicted": "Y",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Y/class_Y_30.jpg",
+        "actual": "Y",
+        "predicted": "Y",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Z/class_Z_1.jpg",
+        "actual": "Z",
+        "predicted": "Z",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Z/class_Z_12.jpg",
+        "actual": "Z",
+        "predicted": "Z",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Z/class_Z_16.jpg",
+        "actual": "Z",
+        "predicted": "Z",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Z/class_Z_17.jpg",
+        "actual": "Z",
+        "predicted": "Z",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Z/class_Z_28.jpg",
+        "actual": "Z",
+        "predicted": "Z",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_Z/class_Z_30.jpg",
+        "actual": "Z",
+        "predicted": "Z",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "training_scale_preprocessing": {
+    "normalization": "1./255",
+    "total": 216,
+    "correct": 212,
+    "incorrect": 4,
+    "accuracy": 0.9814814814814815,
+    "elapsed_seconds": 0.1467287999994369,
+    "mean_latency_ms": 0.679299999997393,
+    "per_class": {
+      "0": {
+        "total": 6,
+        "correct": 5,
+        "accuracy": 0.8333333333333334
+      },
+      "1": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "2": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "3": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "4": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "5": {
+        "total": 6,
+        "correct": 4,
+        "accuracy": 0.6666666666666666
+      },
+      "6": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "7": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "8": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "9": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "A": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "B": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "C": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "D": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "E": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "F": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "G": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "H": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "I": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "J": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "K": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "L": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "M": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "N": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "O": {
+        "total": 6,
+        "correct": 5,
+        "accuracy": 0.8333333333333334
+      },
+      "P": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "Q": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "R": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "S": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "T": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "U": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "V": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "W": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "X": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "Y": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "Z": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6
+      ]
+    ],
+    "predictions": [
+      {
+        "file": "data/val/class_0/class_0_1.jpg",
+        "actual": "0",
+        "predicted": "0",
+        "confidence": 0.6503210067749023
+      },
+      {
+        "file": "data/val/class_0/class_0_12.jpg",
+        "actual": "0",
+        "predicted": "0",
+        "confidence": 0.57186359167099
+      },
+      {
+        "file": "data/val/class_0/class_0_16.jpg",
+        "actual": "0",
+        "predicted": "0",
+        "confidence": 0.8208919167518616
+      },
+      {
+        "file": "data/val/class_0/class_0_17.jpg",
+        "actual": "0",
+        "predicted": "0",
+        "confidence": 0.8038899302482605
+      },
+      {
+        "file": "data/val/class_0/class_0_28.jpg",
+        "actual": "0",
+        "predicted": "O",
+        "confidence": 0.5802561044692993
+      },
+      {
+        "file": "data/val/class_0/class_0_30.jpg",
+        "actual": "0",
+        "predicted": "0",
+        "confidence": 0.7694869637489319
+      },
+      {
+        "file": "data/val/class_1/class_1_1.jpg",
+        "actual": "1",
+        "predicted": "1",
+        "confidence": 0.9999030828475952
+      },
+      {
+        "file": "data/val/class_1/class_1_12.jpg",
+        "actual": "1",
+        "predicted": "1",
+        "confidence": 0.9999582767486572
+      },
+      {
+        "file": "data/val/class_1/class_1_16.jpg",
+        "actual": "1",
+        "predicted": "1",
+        "confidence": 0.9998154044151306
+      },
+      {
+        "file": "data/val/class_1/class_1_17.jpg",
+        "actual": "1",
+        "predicted": "1",
+        "confidence": 0.9993909597396851
+      },
+      {
+        "file": "data/val/class_1/class_1_28.jpg",
+        "actual": "1",
+        "predicted": "1",
+        "confidence": 0.9999449253082275
+      },
+      {
+        "file": "data/val/class_1/class_1_30.jpg",
+        "actual": "1",
+        "predicted": "1",
+        "confidence": 0.9996953010559082
+      },
+      {
+        "file": "data/val/class_2/class_2_1.jpg",
+        "actual": "2",
+        "predicted": "2",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_2/class_2_12.jpg",
+        "actual": "2",
+        "predicted": "2",
+        "confidence": 0.9999971389770508
+      },
+      {
+        "file": "data/val/class_2/class_2_16.jpg",
+        "actual": "2",
+        "predicted": "2",
+        "confidence": 0.9999988079071045
+      },
+      {
+        "file": "data/val/class_2/class_2_17.jpg",
+        "actual": "2",
+        "predicted": "2",
+        "confidence": 0.99997878074646
+      },
+      {
+        "file": "data/val/class_2/class_2_28.jpg",
+        "actual": "2",
+        "predicted": "2",
+        "confidence": 0.9999935626983643
+      },
+      {
+        "file": "data/val/class_2/class_2_30.jpg",
+        "actual": "2",
+        "predicted": "2",
+        "confidence": 0.9999974966049194
+      },
+      {
+        "file": "data/val/class_3/class_3_1.jpg",
+        "actual": "3",
+        "predicted": "3",
+        "confidence": 0.9999997615814209
+      },
+      {
+        "file": "data/val/class_3/class_3_12.jpg",
+        "actual": "3",
+        "predicted": "3",
+        "confidence": 0.9999995231628418
+      },
+      {
+        "file": "data/val/class_3/class_3_16.jpg",
+        "actual": "3",
+        "predicted": "3",
+        "confidence": 0.9999984502792358
+      },
+      {
+        "file": "data/val/class_3/class_3_17.jpg",
+        "actual": "3",
+        "predicted": "3",
+        "confidence": 0.9999862909317017
+      },
+      {
+        "file": "data/val/class_3/class_3_28.jpg",
+        "actual": "3",
+        "predicted": "3",
+        "confidence": 0.9999990463256836
+      },
+      {
+        "file": "data/val/class_3/class_3_30.jpg",
+        "actual": "3",
+        "predicted": "3",
+        "confidence": 0.9999985694885254
+      },
+      {
+        "file": "data/val/class_4/class_4_1.jpg",
+        "actual": "4",
+        "predicted": "4",
+        "confidence": 0.9999501705169678
+      },
+      {
+        "file": "data/val/class_4/class_4_12.jpg",
+        "actual": "4",
+        "predicted": "4",
+        "confidence": 0.9999923706054688
+      },
+      {
+        "file": "data/val/class_4/class_4_16.jpg",
+        "actual": "4",
+        "predicted": "4",
+        "confidence": 0.9999939203262329
+      },
+      {
+        "file": "data/val/class_4/class_4_17.jpg",
+        "actual": "4",
+        "predicted": "4",
+        "confidence": 0.9992812275886536
+      },
+      {
+        "file": "data/val/class_4/class_4_28.jpg",
+        "actual": "4",
+        "predicted": "4",
+        "confidence": 0.9999831914901733
+      },
+      {
+        "file": "data/val/class_4/class_4_30.jpg",
+        "actual": "4",
+        "predicted": "4",
+        "confidence": 0.9999904632568359
+      },
+      {
+        "file": "data/val/class_5/class_5_1.jpg",
+        "actual": "5",
+        "predicted": "5",
+        "confidence": 0.99891197681427
+      },
+      {
+        "file": "data/val/class_5/class_5_12.jpg",
+        "actual": "5",
+        "predicted": "5",
+        "confidence": 0.9996500015258789
+      },
+      {
+        "file": "data/val/class_5/class_5_16.jpg",
+        "actual": "5",
+        "predicted": "S",
+        "confidence": 0.9951316118240356
+      },
+      {
+        "file": "data/val/class_5/class_5_17.jpg",
+        "actual": "5",
+        "predicted": "5",
+        "confidence": 0.9808037877082825
+      },
+      {
+        "file": "data/val/class_5/class_5_28.jpg",
+        "actual": "5",
+        "predicted": "5",
+        "confidence": 0.9994744658470154
+      },
+      {
+        "file": "data/val/class_5/class_5_30.jpg",
+        "actual": "5",
+        "predicted": "S",
+        "confidence": 0.9382111430168152
+      },
+      {
+        "file": "data/val/class_6/class_6_1.jpg",
+        "actual": "6",
+        "predicted": "6",
+        "confidence": 0.9835928678512573
+      },
+      {
+        "file": "data/val/class_6/class_6_12.jpg",
+        "actual": "6",
+        "predicted": "6",
+        "confidence": 0.9967709183692932
+      },
+      {
+        "file": "data/val/class_6/class_6_16.jpg",
+        "actual": "6",
+        "predicted": "6",
+        "confidence": 0.9581469297409058
+      },
+      {
+        "file": "data/val/class_6/class_6_17.jpg",
+        "actual": "6",
+        "predicted": "6",
+        "confidence": 0.8564791083335876
+      },
+      {
+        "file": "data/val/class_6/class_6_28.jpg",
+        "actual": "6",
+        "predicted": "6",
+        "confidence": 0.9846997857093811
+      },
+      {
+        "file": "data/val/class_6/class_6_30.jpg",
+        "actual": "6",
+        "predicted": "6",
+        "confidence": 0.8965813517570496
+      },
+      {
+        "file": "data/val/class_7/class_7_1.jpg",
+        "actual": "7",
+        "predicted": "7",
+        "confidence": 0.9720916152000427
+      },
+      {
+        "file": "data/val/class_7/class_7_12.jpg",
+        "actual": "7",
+        "predicted": "7",
+        "confidence": 0.9973516464233398
+      },
+      {
+        "file": "data/val/class_7/class_7_16.jpg",
+        "actual": "7",
+        "predicted": "7",
+        "confidence": 0.9952566027641296
+      },
+      {
+        "file": "data/val/class_7/class_7_17.jpg",
+        "actual": "7",
+        "predicted": "7",
+        "confidence": 0.9785497784614563
+      },
+      {
+        "file": "data/val/class_7/class_7_28.jpg",
+        "actual": "7",
+        "predicted": "7",
+        "confidence": 0.9863412976264954
+      },
+      {
+        "file": "data/val/class_7/class_7_30.jpg",
+        "actual": "7",
+        "predicted": "7",
+        "confidence": 0.9906850457191467
+      },
+      {
+        "file": "data/val/class_8/class_8_1.jpg",
+        "actual": "8",
+        "predicted": "8",
+        "confidence": 0.9999958276748657
+      },
+      {
+        "file": "data/val/class_8/class_8_12.jpg",
+        "actual": "8",
+        "predicted": "8",
+        "confidence": 0.9999911785125732
+      },
+      {
+        "file": "data/val/class_8/class_8_16.jpg",
+        "actual": "8",
+        "predicted": "8",
+        "confidence": 0.9997318387031555
+      },
+      {
+        "file": "data/val/class_8/class_8_17.jpg",
+        "actual": "8",
+        "predicted": "8",
+        "confidence": 0.9998903274536133
+      },
+      {
+        "file": "data/val/class_8/class_8_28.jpg",
+        "actual": "8",
+        "predicted": "8",
+        "confidence": 0.9998427629470825
+      },
+      {
+        "file": "data/val/class_8/class_8_30.jpg",
+        "actual": "8",
+        "predicted": "8",
+        "confidence": 0.9992105960845947
+      },
+      {
+        "file": "data/val/class_9/class_9_1.jpg",
+        "actual": "9",
+        "predicted": "9",
+        "confidence": 0.9993242025375366
+      },
+      {
+        "file": "data/val/class_9/class_9_12.jpg",
+        "actual": "9",
+        "predicted": "9",
+        "confidence": 0.9994922876358032
+      },
+      {
+        "file": "data/val/class_9/class_9_16.jpg",
+        "actual": "9",
+        "predicted": "9",
+        "confidence": 0.9922997355461121
+      },
+      {
+        "file": "data/val/class_9/class_9_17.jpg",
+        "actual": "9",
+        "predicted": "9",
+        "confidence": 0.9980345368385315
+      },
+      {
+        "file": "data/val/class_9/class_9_28.jpg",
+        "actual": "9",
+        "predicted": "9",
+        "confidence": 0.9960493445396423
+      },
+      {
+        "file": "data/val/class_9/class_9_30.jpg",
+        "actual": "9",
+        "predicted": "9",
+        "confidence": 0.9757981896400452
+      },
+      {
+        "file": "data/val/class_A/class_A_1.jpg",
+        "actual": "A",
+        "predicted": "A",
+        "confidence": 0.9999953508377075
+      },
+      {
+        "file": "data/val/class_A/class_A_12.jpg",
+        "actual": "A",
+        "predicted": "A",
+        "confidence": 0.99998939037323
+      },
+      {
+        "file": "data/val/class_A/class_A_16.jpg",
+        "actual": "A",
+        "predicted": "A",
+        "confidence": 0.9994358420372009
+      },
+      {
+        "file": "data/val/class_A/class_A_17.jpg",
+        "actual": "A",
+        "predicted": "A",
+        "confidence": 0.999677300453186
+      },
+      {
+        "file": "data/val/class_A/class_A_28.jpg",
+        "actual": "A",
+        "predicted": "A",
+        "confidence": 0.9999690055847168
+      },
+      {
+        "file": "data/val/class_A/class_A_30.jpg",
+        "actual": "A",
+        "predicted": "A",
+        "confidence": 0.9988505840301514
+      },
+      {
+        "file": "data/val/class_B/class_B_1.jpg",
+        "actual": "B",
+        "predicted": "B",
+        "confidence": 0.999885082244873
+      },
+      {
+        "file": "data/val/class_B/class_B_12.jpg",
+        "actual": "B",
+        "predicted": "B",
+        "confidence": 0.9999692440032959
+      },
+      {
+        "file": "data/val/class_B/class_B_16.jpg",
+        "actual": "B",
+        "predicted": "B",
+        "confidence": 0.9984766840934753
+      },
+      {
+        "file": "data/val/class_B/class_B_17.jpg",
+        "actual": "B",
+        "predicted": "B",
+        "confidence": 0.9992399215698242
+      },
+      {
+        "file": "data/val/class_B/class_B_28.jpg",
+        "actual": "B",
+        "predicted": "B",
+        "confidence": 0.9999203681945801
+      },
+      {
+        "file": "data/val/class_B/class_B_30.jpg",
+        "actual": "B",
+        "predicted": "B",
+        "confidence": 0.9966049194335938
+      },
+      {
+        "file": "data/val/class_C/class_C_1.jpg",
+        "actual": "C",
+        "predicted": "C",
+        "confidence": 0.9998606443405151
+      },
+      {
+        "file": "data/val/class_C/class_C_12.jpg",
+        "actual": "C",
+        "predicted": "C",
+        "confidence": 0.9953601956367493
+      },
+      {
+        "file": "data/val/class_C/class_C_16.jpg",
+        "actual": "C",
+        "predicted": "C",
+        "confidence": 0.9996131062507629
+      },
+      {
+        "file": "data/val/class_C/class_C_17.jpg",
+        "actual": "C",
+        "predicted": "C",
+        "confidence": 0.9714293479919434
+      },
+      {
+        "file": "data/val/class_C/class_C_28.jpg",
+        "actual": "C",
+        "predicted": "C",
+        "confidence": 0.994408905506134
+      },
+      {
+        "file": "data/val/class_C/class_C_30.jpg",
+        "actual": "C",
+        "predicted": "C",
+        "confidence": 0.9979904890060425
+      },
+      {
+        "file": "data/val/class_D/class_D_1.jpg",
+        "actual": "D",
+        "predicted": "D",
+        "confidence": 0.9998682737350464
+      },
+      {
+        "file": "data/val/class_D/class_D_12.jpg",
+        "actual": "D",
+        "predicted": "D",
+        "confidence": 0.9996641874313354
+      },
+      {
+        "file": "data/val/class_D/class_D_16.jpg",
+        "actual": "D",
+        "predicted": "D",
+        "confidence": 0.9992691874504089
+      },
+      {
+        "file": "data/val/class_D/class_D_17.jpg",
+        "actual": "D",
+        "predicted": "D",
+        "confidence": 0.9990363121032715
+      },
+      {
+        "file": "data/val/class_D/class_D_28.jpg",
+        "actual": "D",
+        "predicted": "D",
+        "confidence": 0.9991579055786133
+      },
+      {
+        "file": "data/val/class_D/class_D_30.jpg",
+        "actual": "D",
+        "predicted": "D",
+        "confidence": 0.9990986585617065
+      },
+      {
+        "file": "data/val/class_E/class_E_1.jpg",
+        "actual": "E",
+        "predicted": "E",
+        "confidence": 0.9997279047966003
+      },
+      {
+        "file": "data/val/class_E/class_E_12.jpg",
+        "actual": "E",
+        "predicted": "E",
+        "confidence": 0.9999831914901733
+      },
+      {
+        "file": "data/val/class_E/class_E_16.jpg",
+        "actual": "E",
+        "predicted": "E",
+        "confidence": 0.9998036026954651
+      },
+      {
+        "file": "data/val/class_E/class_E_17.jpg",
+        "actual": "E",
+        "predicted": "E",
+        "confidence": 0.8317621350288391
+      },
+      {
+        "file": "data/val/class_E/class_E_28.jpg",
+        "actual": "E",
+        "predicted": "E",
+        "confidence": 0.999947190284729
+      },
+      {
+        "file": "data/val/class_E/class_E_30.jpg",
+        "actual": "E",
+        "predicted": "E",
+        "confidence": 0.9997225403785706
+      },
+      {
+        "file": "data/val/class_F/class_F_1.jpg",
+        "actual": "F",
+        "predicted": "F",
+        "confidence": 0.9995512366294861
+      },
+      {
+        "file": "data/val/class_F/class_F_12.jpg",
+        "actual": "F",
+        "predicted": "F",
+        "confidence": 0.9987024068832397
+      },
+      {
+        "file": "data/val/class_F/class_F_16.jpg",
+        "actual": "F",
+        "predicted": "F",
+        "confidence": 0.9724031686782837
+      },
+      {
+        "file": "data/val/class_F/class_F_17.jpg",
+        "actual": "F",
+        "predicted": "F",
+        "confidence": 0.9420254826545715
+      },
+      {
+        "file": "data/val/class_F/class_F_28.jpg",
+        "actual": "F",
+        "predicted": "F",
+        "confidence": 0.9955824017524719
+      },
+      {
+        "file": "data/val/class_F/class_F_30.jpg",
+        "actual": "F",
+        "predicted": "F",
+        "confidence": 0.9474157691001892
+      },
+      {
+        "file": "data/val/class_G/class_G_1.jpg",
+        "actual": "G",
+        "predicted": "G",
+        "confidence": 0.9998117089271545
+      },
+      {
+        "file": "data/val/class_G/class_G_12.jpg",
+        "actual": "G",
+        "predicted": "G",
+        "confidence": 0.9923757910728455
+      },
+      {
+        "file": "data/val/class_G/class_G_16.jpg",
+        "actual": "G",
+        "predicted": "G",
+        "confidence": 0.999816358089447
+      },
+      {
+        "file": "data/val/class_G/class_G_17.jpg",
+        "actual": "G",
+        "predicted": "G",
+        "confidence": 0.9854581356048584
+      },
+      {
+        "file": "data/val/class_G/class_G_28.jpg",
+        "actual": "G",
+        "predicted": "G",
+        "confidence": 0.9974602460861206
+      },
+      {
+        "file": "data/val/class_G/class_G_30.jpg",
+        "actual": "G",
+        "predicted": "G",
+        "confidence": 0.9995214939117432
+      },
+      {
+        "file": "data/val/class_H/class_H_1.jpg",
+        "actual": "H",
+        "predicted": "H",
+        "confidence": 0.9999980926513672
+      },
+      {
+        "file": "data/val/class_H/class_H_12.jpg",
+        "actual": "H",
+        "predicted": "H",
+        "confidence": 0.9999978542327881
+      },
+      {
+        "file": "data/val/class_H/class_H_16.jpg",
+        "actual": "H",
+        "predicted": "H",
+        "confidence": 0.9999957084655762
+      },
+      {
+        "file": "data/val/class_H/class_H_17.jpg",
+        "actual": "H",
+        "predicted": "H",
+        "confidence": 0.9991487264633179
+      },
+      {
+        "file": "data/val/class_H/class_H_28.jpg",
+        "actual": "H",
+        "predicted": "H",
+        "confidence": 0.999995231628418
+      },
+      {
+        "file": "data/val/class_H/class_H_30.jpg",
+        "actual": "H",
+        "predicted": "H",
+        "confidence": 0.999984860420227
+      },
+      {
+        "file": "data/val/class_I/class_I_1.jpg",
+        "actual": "I",
+        "predicted": "I",
+        "confidence": 0.9999582767486572
+      },
+      {
+        "file": "data/val/class_I/class_I_12.jpg",
+        "actual": "I",
+        "predicted": "I",
+        "confidence": 0.9978790283203125
+      },
+      {
+        "file": "data/val/class_I/class_I_16.jpg",
+        "actual": "I",
+        "predicted": "I",
+        "confidence": 0.987868070602417
+      },
+      {
+        "file": "data/val/class_I/class_I_17.jpg",
+        "actual": "I",
+        "predicted": "I",
+        "confidence": 0.9999079704284668
+      },
+      {
+        "file": "data/val/class_I/class_I_28.jpg",
+        "actual": "I",
+        "predicted": "I",
+        "confidence": 0.9999240636825562
+      },
+      {
+        "file": "data/val/class_I/class_I_30.jpg",
+        "actual": "I",
+        "predicted": "I",
+        "confidence": 0.9996607303619385
+      },
+      {
+        "file": "data/val/class_J/class_J_1.jpg",
+        "actual": "J",
+        "predicted": "J",
+        "confidence": 0.9996614456176758
+      },
+      {
+        "file": "data/val/class_J/class_J_12.jpg",
+        "actual": "J",
+        "predicted": "J",
+        "confidence": 0.9999990463256836
+      },
+      {
+        "file": "data/val/class_J/class_J_16.jpg",
+        "actual": "J",
+        "predicted": "J",
+        "confidence": 0.9910492897033691
+      },
+      {
+        "file": "data/val/class_J/class_J_17.jpg",
+        "actual": "J",
+        "predicted": "J",
+        "confidence": 0.9999234676361084
+      },
+      {
+        "file": "data/val/class_J/class_J_28.jpg",
+        "actual": "J",
+        "predicted": "J",
+        "confidence": 0.9999879598617554
+      },
+      {
+        "file": "data/val/class_J/class_J_30.jpg",
+        "actual": "J",
+        "predicted": "J",
+        "confidence": 0.838336169719696
+      },
+      {
+        "file": "data/val/class_K/class_K_1.jpg",
+        "actual": "K",
+        "predicted": "K",
+        "confidence": 0.9999960660934448
+      },
+      {
+        "file": "data/val/class_K/class_K_12.jpg",
+        "actual": "K",
+        "predicted": "K",
+        "confidence": 0.9998993873596191
+      },
+      {
+        "file": "data/val/class_K/class_K_16.jpg",
+        "actual": "K",
+        "predicted": "K",
+        "confidence": 0.9994643330574036
+      },
+      {
+        "file": "data/val/class_K/class_K_17.jpg",
+        "actual": "K",
+        "predicted": "K",
+        "confidence": 0.9905622601509094
+      },
+      {
+        "file": "data/val/class_K/class_K_28.jpg",
+        "actual": "K",
+        "predicted": "K",
+        "confidence": 0.9995750784873962
+      },
+      {
+        "file": "data/val/class_K/class_K_30.jpg",
+        "actual": "K",
+        "predicted": "K",
+        "confidence": 0.9971809387207031
+      },
+      {
+        "file": "data/val/class_L/class_L_1.jpg",
+        "actual": "L",
+        "predicted": "L",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_L/class_L_12.jpg",
+        "actual": "L",
+        "predicted": "L",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_L/class_L_16.jpg",
+        "actual": "L",
+        "predicted": "L",
+        "confidence": 0.9999998807907104
+      },
+      {
+        "file": "data/val/class_L/class_L_17.jpg",
+        "actual": "L",
+        "predicted": "L",
+        "confidence": 0.9999727010726929
+      },
+      {
+        "file": "data/val/class_L/class_L_28.jpg",
+        "actual": "L",
+        "predicted": "L",
+        "confidence": 1.0
+      },
+      {
+        "file": "data/val/class_L/class_L_30.jpg",
+        "actual": "L",
+        "predicted": "L",
+        "confidence": 0.9999994039535522
+      },
+      {
+        "file": "data/val/class_M/class_M_1.jpg",
+        "actual": "M",
+        "predicted": "M",
+        "confidence": 0.9996116757392883
+      },
+      {
+        "file": "data/val/class_M/class_M_12.jpg",
+        "actual": "M",
+        "predicted": "M",
+        "confidence": 0.9999816417694092
+      },
+      {
+        "file": "data/val/class_M/class_M_16.jpg",
+        "actual": "M",
+        "predicted": "M",
+        "confidence": 0.9999216794967651
+      },
+      {
+        "file": "data/val/class_M/class_M_17.jpg",
+        "actual": "M",
+        "predicted": "M",
+        "confidence": 0.9853282570838928
+      },
+      {
+        "file": "data/val/class_M/class_M_28.jpg",
+        "actual": "M",
+        "predicted": "M",
+        "confidence": 0.9999244213104248
+      },
+      {
+        "file": "data/val/class_M/class_M_30.jpg",
+        "actual": "M",
+        "predicted": "M",
+        "confidence": 0.9998832941055298
+      },
+      {
+        "file": "data/val/class_N/class_N_1.jpg",
+        "actual": "N",
+        "predicted": "N",
+        "confidence": 0.9999969005584717
+      },
+      {
+        "file": "data/val/class_N/class_N_12.jpg",
+        "actual": "N",
+        "predicted": "N",
+        "confidence": 0.9999992847442627
+      },
+      {
+        "file": "data/val/class_N/class_N_16.jpg",
+        "actual": "N",
+        "predicted": "N",
+        "confidence": 0.9999932050704956
+      },
+      {
+        "file": "data/val/class_N/class_N_17.jpg",
+        "actual": "N",
+        "predicted": "N",
+        "confidence": 0.9998230338096619
+      },
+      {
+        "file": "data/val/class_N/class_N_28.jpg",
+        "actual": "N",
+        "predicted": "N",
+        "confidence": 0.9999972581863403
+      },
+      {
+        "file": "data/val/class_N/class_N_30.jpg",
+        "actual": "N",
+        "predicted": "N",
+        "confidence": 0.9999808073043823
+      },
+      {
+        "file": "data/val/class_O/class_O_1.jpg",
+        "actual": "O",
+        "predicted": "O",
+        "confidence": 0.8160327672958374
+      },
+      {
+        "file": "data/val/class_O/class_O_12.jpg",
+        "actual": "O",
+        "predicted": "O",
+        "confidence": 0.7364827990531921
+      },
+      {
+        "file": "data/val/class_O/class_O_16.jpg",
+        "actual": "O",
+        "predicted": "0",
+        "confidence": 0.5577642321586609
+      },
+      {
+        "file": "data/val/class_O/class_O_17.jpg",
+        "actual": "O",
+        "predicted": "O",
+        "confidence": 0.8501681089401245
+      },
+      {
+        "file": "data/val/class_O/class_O_28.jpg",
+        "actual": "O",
+        "predicted": "O",
+        "confidence": 0.5926453471183777
+      },
+      {
+        "file": "data/val/class_O/class_O_30.jpg",
+        "actual": "O",
+        "predicted": "O",
+        "confidence": 0.6967302560806274
+      },
+      {
+        "file": "data/val/class_P/class_P_1.jpg",
+        "actual": "P",
+        "predicted": "P",
+        "confidence": 0.9999366998672485
+      },
+      {
+        "file": "data/val/class_P/class_P_12.jpg",
+        "actual": "P",
+        "predicted": "P",
+        "confidence": 0.9996155500411987
+      },
+      {
+        "file": "data/val/class_P/class_P_16.jpg",
+        "actual": "P",
+        "predicted": "P",
+        "confidence": 0.9996703863143921
+      },
+      {
+        "file": "data/val/class_P/class_P_17.jpg",
+        "actual": "P",
+        "predicted": "P",
+        "confidence": 0.9986586570739746
+      },
+      {
+        "file": "data/val/class_P/class_P_28.jpg",
+        "actual": "P",
+        "predicted": "P",
+        "confidence": 0.9995563626289368
+      },
+      {
+        "file": "data/val/class_P/class_P_30.jpg",
+        "actual": "P",
+        "predicted": "P",
+        "confidence": 0.9994953870773315
+      },
+      {
+        "file": "data/val/class_Q/class_Q_1.jpg",
+        "actual": "Q",
+        "predicted": "Q",
+        "confidence": 0.9999985694885254
+      },
+      {
+        "file": "data/val/class_Q/class_Q_12.jpg",
+        "actual": "Q",
+        "predicted": "Q",
+        "confidence": 0.9999803304672241
+      },
+      {
+        "file": "data/val/class_Q/class_Q_16.jpg",
+        "actual": "Q",
+        "predicted": "Q",
+        "confidence": 0.9999597072601318
+      },
+      {
+        "file": "data/val/class_Q/class_Q_17.jpg",
+        "actual": "Q",
+        "predicted": "Q",
+        "confidence": 0.9996963739395142
+      },
+      {
+        "file": "data/val/class_Q/class_Q_28.jpg",
+        "actual": "Q",
+        "predicted": "Q",
+        "confidence": 0.9999356269836426
+      },
+      {
+        "file": "data/val/class_Q/class_Q_30.jpg",
+        "actual": "Q",
+        "predicted": "Q",
+        "confidence": 0.9998918771743774
+      },
+      {
+        "file": "data/val/class_R/class_R_1.jpg",
+        "actual": "R",
+        "predicted": "R",
+        "confidence": 0.9999996423721313
+      },
+      {
+        "file": "data/val/class_R/class_R_12.jpg",
+        "actual": "R",
+        "predicted": "R",
+        "confidence": 0.9999982118606567
+      },
+      {
+        "file": "data/val/class_R/class_R_16.jpg",
+        "actual": "R",
+        "predicted": "R",
+        "confidence": 0.9999988079071045
+      },
+      {
+        "file": "data/val/class_R/class_R_17.jpg",
+        "actual": "R",
+        "predicted": "R",
+        "confidence": 0.99919193983078
+      },
+      {
+        "file": "data/val/class_R/class_R_28.jpg",
+        "actual": "R",
+        "predicted": "R",
+        "confidence": 0.9999972581863403
+      },
+      {
+        "file": "data/val/class_R/class_R_30.jpg",
+        "actual": "R",
+        "predicted": "R",
+        "confidence": 0.9999959468841553
+      },
+      {
+        "file": "data/val/class_S/class_S_1.jpg",
+        "actual": "S",
+        "predicted": "S",
+        "confidence": 0.9999969005584717
+      },
+      {
+        "file": "data/val/class_S/class_S_12.jpg",
+        "actual": "S",
+        "predicted": "S",
+        "confidence": 0.9997134804725647
+      },
+      {
+        "file": "data/val/class_S/class_S_16.jpg",
+        "actual": "S",
+        "predicted": "S",
+        "confidence": 0.9999961853027344
+      },
+      {
+        "file": "data/val/class_S/class_S_17.jpg",
+        "actual": "S",
+        "predicted": "S",
+        "confidence": 0.998348593711853
+      },
+      {
+        "file": "data/val/class_S/class_S_28.jpg",
+        "actual": "S",
+        "predicted": "S",
+        "confidence": 0.999906063079834
+      },
+      {
+        "file": "data/val/class_S/class_S_30.jpg",
+        "actual": "S",
+        "predicted": "S",
+        "confidence": 0.9999897480010986
+      },
+      {
+        "file": "data/val/class_T/class_T_1.jpg",
+        "actual": "T",
+        "predicted": "T",
+        "confidence": 0.9999892711639404
+      },
+      {
+        "file": "data/val/class_T/class_T_12.jpg",
+        "actual": "T",
+        "predicted": "T",
+        "confidence": 0.9999889135360718
+      },
+      {
+        "file": "data/val/class_T/class_T_16.jpg",
+        "actual": "T",
+        "predicted": "T",
+        "confidence": 0.9998865127563477
+      },
+      {
+        "file": "data/val/class_T/class_T_17.jpg",
+        "actual": "T",
+        "predicted": "T",
+        "confidence": 0.9997921586036682
+      },
+      {
+        "file": "data/val/class_T/class_T_28.jpg",
+        "actual": "T",
+        "predicted": "T",
+        "confidence": 0.99998939037323
+      },
+      {
+        "file": "data/val/class_T/class_T_30.jpg",
+        "actual": "T",
+        "predicted": "T",
+        "confidence": 0.9999070167541504
+      },
+      {
+        "file": "data/val/class_U/class_U_1.jpg",
+        "actual": "U",
+        "predicted": "U",
+        "confidence": 0.9991275668144226
+      },
+      {
+        "file": "data/val/class_U/class_U_12.jpg",
+        "actual": "U",
+        "predicted": "U",
+        "confidence": 0.9987819790840149
+      },
+      {
+        "file": "data/val/class_U/class_U_16.jpg",
+        "actual": "U",
+        "predicted": "U",
+        "confidence": 0.9990139007568359
+      },
+      {
+        "file": "data/val/class_U/class_U_17.jpg",
+        "actual": "U",
+        "predicted": "U",
+        "confidence": 0.9837469458580017
+      },
+      {
+        "file": "data/val/class_U/class_U_28.jpg",
+        "actual": "U",
+        "predicted": "U",
+        "confidence": 0.9969040751457214
+      },
+      {
+        "file": "data/val/class_U/class_U_30.jpg",
+        "actual": "U",
+        "predicted": "U",
+        "confidence": 0.9984803795814514
+      },
+      {
+        "file": "data/val/class_V/class_V_1.jpg",
+        "actual": "V",
+        "predicted": "V",
+        "confidence": 0.9997968077659607
+      },
+      {
+        "file": "data/val/class_V/class_V_12.jpg",
+        "actual": "V",
+        "predicted": "V",
+        "confidence": 0.999573290348053
+      },
+      {
+        "file": "data/val/class_V/class_V_16.jpg",
+        "actual": "V",
+        "predicted": "V",
+        "confidence": 0.9995244741439819
+      },
+      {
+        "file": "data/val/class_V/class_V_17.jpg",
+        "actual": "V",
+        "predicted": "V",
+        "confidence": 0.9978733062744141
+      },
+      {
+        "file": "data/val/class_V/class_V_28.jpg",
+        "actual": "V",
+        "predicted": "V",
+        "confidence": 0.9978635907173157
+      },
+      {
+        "file": "data/val/class_V/class_V_30.jpg",
+        "actual": "V",
+        "predicted": "V",
+        "confidence": 0.9993202686309814
+      },
+      {
+        "file": "data/val/class_W/class_W_1.jpg",
+        "actual": "W",
+        "predicted": "W",
+        "confidence": 0.9999105930328369
+      },
+      {
+        "file": "data/val/class_W/class_W_12.jpg",
+        "actual": "W",
+        "predicted": "W",
+        "confidence": 0.9998631477355957
+      },
+      {
+        "file": "data/val/class_W/class_W_16.jpg",
+        "actual": "W",
+        "predicted": "W",
+        "confidence": 0.999506950378418
+      },
+      {
+        "file": "data/val/class_W/class_W_17.jpg",
+        "actual": "W",
+        "predicted": "W",
+        "confidence": 0.9984291195869446
+      },
+      {
+        "file": "data/val/class_W/class_W_28.jpg",
+        "actual": "W",
+        "predicted": "W",
+        "confidence": 0.9972020387649536
+      },
+      {
+        "file": "data/val/class_W/class_W_30.jpg",
+        "actual": "W",
+        "predicted": "W",
+        "confidence": 0.9990635514259338
+      },
+      {
+        "file": "data/val/class_X/class_X_1.jpg",
+        "actual": "X",
+        "predicted": "X",
+        "confidence": 0.9999991655349731
+      },
+      {
+        "file": "data/val/class_X/class_X_12.jpg",
+        "actual": "X",
+        "predicted": "X",
+        "confidence": 0.9999983310699463
+      },
+      {
+        "file": "data/val/class_X/class_X_16.jpg",
+        "actual": "X",
+        "predicted": "X",
+        "confidence": 0.9999991655349731
+      },
+      {
+        "file": "data/val/class_X/class_X_17.jpg",
+        "actual": "X",
+        "predicted": "X",
+        "confidence": 0.9999853372573853
+      },
+      {
+        "file": "data/val/class_X/class_X_28.jpg",
+        "actual": "X",
+        "predicted": "X",
+        "confidence": 0.9999872446060181
+      },
+      {
+        "file": "data/val/class_X/class_X_30.jpg",
+        "actual": "X",
+        "predicted": "X",
+        "confidence": 0.9999974966049194
+      },
+      {
+        "file": "data/val/class_Y/class_Y_1.jpg",
+        "actual": "Y",
+        "predicted": "Y",
+        "confidence": 0.9999954700469971
+      },
+      {
+        "file": "data/val/class_Y/class_Y_12.jpg",
+        "actual": "Y",
+        "predicted": "Y",
+        "confidence": 0.9999935626983643
+      },
+      {
+        "file": "data/val/class_Y/class_Y_16.jpg",
+        "actual": "Y",
+        "predicted": "Y",
+        "confidence": 0.9999901056289673
+      },
+      {
+        "file": "data/val/class_Y/class_Y_17.jpg",
+        "actual": "Y",
+        "predicted": "Y",
+        "confidence": 0.999678373336792
+      },
+      {
+        "file": "data/val/class_Y/class_Y_28.jpg",
+        "actual": "Y",
+        "predicted": "Y",
+        "confidence": 0.9999898672103882
+      },
+      {
+        "file": "data/val/class_Y/class_Y_30.jpg",
+        "actual": "Y",
+        "predicted": "Y",
+        "confidence": 0.9999790191650391
+      },
+      {
+        "file": "data/val/class_Z/class_Z_1.jpg",
+        "actual": "Z",
+        "predicted": "Z",
+        "confidence": 0.9999279975891113
+      },
+      {
+        "file": "data/val/class_Z/class_Z_12.jpg",
+        "actual": "Z",
+        "predicted": "Z",
+        "confidence": 0.9999772310256958
+      },
+      {
+        "file": "data/val/class_Z/class_Z_16.jpg",
+        "actual": "Z",
+        "predicted": "Z",
+        "confidence": 0.9999117851257324
+      },
+      {
+        "file": "data/val/class_Z/class_Z_17.jpg",
+        "actual": "Z",
+        "predicted": "Z",
+        "confidence": 0.9998989105224609
+      },
+      {
+        "file": "data/val/class_Z/class_Z_28.jpg",
+        "actual": "Z",
+        "predicted": "Z",
+        "confidence": 0.9999150037765503
+      },
+      {
+        "file": "data/val/class_Z/class_Z_30.jpg",
+        "actual": "Z",
+        "predicted": "Z",
+        "confidence": 0.9998561143875122
+      }
+    ]
+  }
+}

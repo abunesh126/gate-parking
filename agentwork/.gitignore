@@ -1,0 +1,11 @@
+.venv/
+.venv-ml-validation/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+smartpark.pid
+debug_artifacts/*
+!debug_artifacts/.gitkeep

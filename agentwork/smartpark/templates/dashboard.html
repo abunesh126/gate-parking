@@ -1,0 +1,7 @@
+{% extends "base.html" %}{% block content %}
+<section class="cards">
+<div><small>ACTIVE VEHICLES</small><strong id="active">0</strong></div><div><small>AVAILABLE SPACES</small><strong id="available-spaces">0</strong></div><div><small>TODAY'S ENTRIES</small><strong id="entries">0</strong></div><div><small>TODAY'S EXITS</small><strong id="exits">0</strong></div>
+</section>
+<section class="panel"><h3>Parking operations</h3><p>The connected camera automatically recognizes plates using the selected mode.</p><button onclick="setMode('entry')">Entry mode</button><button onclick="setMode('exit')">Exit mode</button><span id="mode"></span><a class="button-link" href="/camera">Open camera</a><p id="dashboard-utilization"></p></section>
+<section class="panel"><h3>Recent parking activity</h3><div id="recent">Loading...</div></section>
+{% endblock %}

@@ -1,0 +1,6 @@
+Flask>=3.0,<4
+numpy>=1.26,<3
+opencv-python>=4.8,<5
+tensorflow>=2.16,<3
+pytest>=8,<9
+cv2-enumerate-cameras>=1.4,<2

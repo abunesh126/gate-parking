@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<section class="panel"><h3>Active vehicles</h3><input id="table-search" placeholder="Search registration"><button onclick="loadTable()">Search</button><div id="table" data-endpoint="/api/vehicles/active">Loading...</div></section>{% endblock %}
