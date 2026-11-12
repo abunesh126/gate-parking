@@ -1,1 +1,0 @@
-"""SmartPark application package."""
